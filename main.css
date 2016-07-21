@@ -1,0 +1,75 @@
+.divgeneral{
+	background-color: green;
+	width: 900px;
+	height: 500px;
+	padding-top: 30px;
+}
+body{
+	margin: 50px 250px;
+}
+.contorno{
+	border: solid 1px white;
+	margin: auto;
+	width: 850px;
+	height: 470px;
+}
+
+.centros {
+	position: relative;
+	top: 100px;
+	left: -1px;
+	width: 850px;
+	height: 250px;
+	/*border: yellow dashed 1px;*/
+}
+.cuad-izq {
+	width: 100px;
+	height: 250px;
+	border: solid 1px white;
+	display: inline-block;
+	position: absolute;
+
+/*	position: relative;
+	left: -1px;		
+	top:100px;	*/	
+}
+
+.cuad-der {
+	width: 100px;
+	height: 250px;
+	border: solid 1px white;
+	display: inline-block;
+	margin: 0px;
+	position: absolute;
+	right: -2px;
+}
+
+.circulo {
+	width: 150px;
+	height: 150px;
+	border-radius:100px;
+	border: solid 1px white;
+	display: inline-block;
+	position: relative;
+	margin: 50px 340px;
+}
+
+.bola1{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 90px;
+}
+
+.bola2{
+	display: inline-block;
+	position: absolute;
+	top: 225px;
+	right: 90px;
+}
+
+.bola3{
+	display: inline-block;
+	position: relative;
+	top: 70px;
+	left:350px;
